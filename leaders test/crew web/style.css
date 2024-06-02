@@ -1,0 +1,74 @@
+#header h2{
+  cursor:pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color:whitesmoke
+}
+#header{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  gap:30px;
+}
+#aboughtMe{
+  display: none;
+  flex-direction: column;
+  width: 500px;
+  height:600px;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  border:1px solid black;
+  border-radius: 20px;
+  gap: 12px;
+}
+#underLine{
+  height:8px;
+  width:100px;
+  background-color: blueviolet;
+  border-radius: 20px;
+}
+#rst{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p,h1,h2,h3,h4,h5,h6,button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#text{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img img{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  box-shadow: 10px -8px 20px blueviolet;
+}
+#rst button{
+  height: 30px;
+  width:70px;
+  border-radius: 20px;
+  border: 1px solid blueviolet;
+  box-shadow: 5px -5px 10px blueviolet;
+  cursor: pointer;
+}
+#arrow{
+  display: flex;
+  gap: 5px;
+}
+#arrow p {
+  font-size: 25px;
+  color: blueviolet;
+  cursor:pointer;
+  
+}
+
